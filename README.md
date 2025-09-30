@@ -1,12 +1,14 @@
-# 🔐 SIEM Implementation: Wazuh + Suricata
-A comprehensive guide demonstrating Wazuh deployment, configuration, and agent management on Ubuntu and Windows. Includes setup for file integrity monitoring, Suricata IDS, vulnerability detection, malicious command auditing, SSH brute force protection, and VirusTotal integration for malware detection.
+## 🔐 SIEM Implementation: Wazuh + Suricata
 
----
+A comprehensive guide demonstrating the deployment and configuration of Wazuh SIEM with Suricata IDS for centralized security monitoring.
+This project covers installation, multi-platform agent management (Ubuntu & Windows), and use cases including:
 
-## 📋 Overview
-
-This project documents the full setup of a **centralized security monitoring infrastructure** using Wazuh and Suricata.
-It covers installation, configuration, and security demonstrations across **Ubuntu** and **Windows** systems, integrating multiple tools for **threat detection**, **response**, and **monitoring**.
+- File Integrity Monitoring (FIM)
+- Network Intrusion Detection (Suricata)
+- Vulnerability Detection
+- Malicious Command Auditing (Auditd)
+- SSH Brute Force Protection
+- Malware Detection via VirusTotal Integration
 
 ---
 
@@ -41,19 +43,6 @@ It covers installation, configuration, and security demonstrations across **Ubun
 * **SSH Brute Force Protection** → Active response rules
 * **Malware Detection** → VirusTotal integration for suspicious files
 * **Custom Alert Rules** → Tailored detection policies
-
----
-
-## 📁 Project Structure
-
-```
-├── Documentation/        # Detailed implementation report
-├── Configurations/       # Sample config files
-│   ├── ossec.conf        # Wazuh main configuration
-│   ├── suricata.yaml     # Suricata configuration
-│   └── audit.rules       # Auditd rules
-└── README.md             # Project documentation
-```
 
 ---
 
@@ -105,12 +94,12 @@ sudo bash ./wazuh-install.sh -a
 
 ## 📈 Results
 
-The implementation demonstrates:
-✔ Centralized monitoring across Linux & Windows systems
-✔ Effective detection of common attack vectors
-✔ Automated threat response mechanisms
-✔ Integrated vulnerability management
-✔ Alignment with industry-standard security tools
+The implementation demonstrates:  
+✔ Centralized monitoring across Linux & Windows systems  
+✔ Effective detection of common attack vectors  
+✔ Automated threat response mechanisms  
+✔ Integrated vulnerability management  
+✔ Alignment with industry-standard security tools  
 
 ---
 
